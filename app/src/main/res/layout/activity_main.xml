@@ -19,8 +19,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="50dp"
-            binding:onClickCommand="@{viewModel.pay}"
-            android:text="支付" />
+            android:text="创建订单"
+            binding:onClickCommand="@{viewModel.pay}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="查询订单支付结果"
+            binding:onClickCommand="@{viewModel.check}" />
     </LinearLayout>
 
 </layout>
